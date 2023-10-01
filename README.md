@@ -6,6 +6,8 @@ pip install elevenlabs
 
 pip install PyAudio
 
+pip install python-dotenv
+
 ## Więcej:
 
 https://platform.openai.com/docs/libraries

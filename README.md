@@ -13,6 +13,8 @@ Do generowania głosu wymagana jest instalacja aplikacji MPV:
 https://mpv.io/
 
 ## Klucze do API
-Klucze do API zapisujemy w pliku .env w tym samym folderze:
+Klucze do API zapisujemy w pliku .env w tym samym folderze.
+### OPENAI:
 OPENAI_API_KEY="sk-xxxxxxxxxxxxxx"
+### ELEVENLABS
 ELEVEN_API_KEY = "cfsxxxxxxxxxxxxxxxxxxxxxxxxxx"

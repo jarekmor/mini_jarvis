@@ -4,9 +4,9 @@ pip install elevenlabs
 pip install PyAudio
 
 ## Więcej:
-https://platform.openai.com/docs/libraries
-https://github.com/elevenlabs/elevenlabs-python
-https://pypi.org/project/PyAudio/
+### https://platform.openai.com/docs/libraries
+### https://github.com/elevenlabs/elevenlabs-python
+### https://pypi.org/project/PyAudio/
 
 # MPV
 Do generowania głosu wymagana jest instalacja aplikacji MPV: 

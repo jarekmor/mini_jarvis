@@ -8,6 +8,8 @@ pip install PyAudio
 
 pip install python-dotenv
 
+pip install webrtcvad 
+
 ## Więcej:
 
 https://platform.openai.com/docs/libraries

@@ -8,7 +8,7 @@ pip install PyAudio
 
 pip install python-dotenv
 
-pip install webrtcvad 
+pip install webrtcvad-wheels 
 
 ## Więcej:
 

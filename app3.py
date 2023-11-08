@@ -114,4 +114,3 @@ if __name__ == "__main__":
         # break
     else:
         print("No human voice detected in the recording. Starting recording again...")
-        continue

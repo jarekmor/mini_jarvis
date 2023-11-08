@@ -107,13 +107,11 @@ def generate_voice_response(transcript):
     
 # Main block
 if __name__ == "__main__":
-    
-    while True:
-        transcript = record_from_mic()
-        if contains_human_voice(WAVE_OUTPUT_FILENAME, 0.20):
-            print("At least 20% of the recording contains human voice!")
-            generate_voice_response(transcript)
-            # break
-        else:
-            print("No human voice detected in the recording. Starting recording again...")
-            continue
+    transcript = record_from_mic()
+    if contains_human_voice(WAVE_OUTPUT_FILENAME, 0.20):
+        print("At least 20% of the recording contains human voice!")
+        generate_voice_response(transcript)
+        # break
+    else:
+        print("No human voice detected in the recording. Starting recording again...")
+        continue
